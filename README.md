@@ -4,6 +4,10 @@ My word cloud
 
 ## Images
 
+### Tabelog
+
+![wordcloud_tabelog.jpg](wordcloud_tabelog.jpg)
+
 ### Twitter
 
 ![wordcloud_twitter.png](wordcloud_twitter.png)
