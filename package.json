@@ -1,0 +1,30 @@
+{
+  "name": "wordcloud",
+  "version": "0.1.0",
+  "description": "My word cloud",
+  "private": true,
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "clean": "rimraf dist",
+    "lint": "eslint '**/*.{js,ts}'",
+    "prebuild": "npm run clean",
+    "start": "ts-node src/main.ts",
+    "test": "jest --passWithNoTests"
+  },
+  "engines": {
+    "node": "18.15.0"
+  },
+  "devDependencies": {
+    "@munierujp/eslint-config-typescript": "17.0.2",
+    "@tsconfig/node18": "1.0.1",
+    "@types/node": "18.15.11",
+    "eslint": "8.37.0",
+    "eslint-plugin-jest": "27.2.1",
+    "jest": "29.5.0",
+    "rimraf": "4.4.1",
+    "ts-jest": "29.0.5",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.3"
+  },
+  "license": "MIT"
+}
