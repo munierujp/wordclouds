@@ -1,3 +1,9 @@
-// TODO: Implement
+// TODO: Update `wordList` of `.wcld2` files using `words.csv`
 
-console.log('Hello World')
+// TODO: Run headless browser
+
+// TODO: Open https://www.wordclouds.com/
+
+// TODO: Upload `.wcld2` file
+
+// TODO: Download image to `data` dir
