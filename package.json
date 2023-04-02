@@ -8,7 +8,8 @@
     "clean": "rimraf dist",
     "generate": "ts-node src/bin/generate.ts",
     "lint": "eslint '**/*.{js,ts}'",
-    "prebuild": "npm run clean"
+    "prebuild": "npm run clean",
+    "test": "jest --passWithNoTests"
   },
   "engines": {
     "node": "18.15.0"
@@ -25,7 +26,9 @@
     "@tsconfig/node18": "1.0.1",
     "@types/node": "18.15.11",
     "eslint": "8.37.0",
+    "jest": "29.5.0",
     "rimraf": "4.4.1",
+    "ts-jest": "29.0.5",
     "ts-node": "10.9.1",
     "typescript": "5.0.3"
   },
