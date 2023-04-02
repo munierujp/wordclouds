@@ -9,7 +9,6 @@
     "generate": "ts-node src/generate.ts",
     "lint": "eslint '**/*.{js,ts}'",
     "prebuild": "npm run clean",
-    "start": "ts-node src/main.ts",
     "test": "jest --passWithNoTests"
   },
   "engines": {
