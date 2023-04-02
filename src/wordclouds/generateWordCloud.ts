@@ -1,7 +1,7 @@
 import type { Page } from 'playwright'
+import type { Profile } from '../Profile'
 import { downloadImageFile } from './downloadImageFile'
 import { downloadWordCloudFile } from './downloadWordCloudFile'
-import type { Profile } from './Profile'
 import { uploadWordCloudFile } from './uploadWordCloudFile'
 import { uploadWordListFile } from './uploadWordListFile'
 

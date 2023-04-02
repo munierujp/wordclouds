@@ -1,6 +1,6 @@
 import type { Page } from 'playwright'
-import { FileType } from './FileType'
-import type { Profile } from './Profile'
+import { FileType } from '../FileType'
+import type { Profile } from '../Profile'
 import { Selector } from './Selector'
 
 export const downloadImageFile = async (page: Page, profile: Profile): Promise<void> => {
