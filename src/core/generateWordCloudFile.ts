@@ -10,10 +10,8 @@ import { uploadWordListFile } from './uploadWordListFile'
 export const generateWordCloudFile = async (page: Page, profile: Profile): Promise<void> => {
   logger.info(`Upload ${profile.name}.wcld2 file`)
   await uploadWordCloudFile(page, `data/${profile.name}.wcld2`)
-
   logger.info('Upload words.csv file')
   await uploadWordListFile(page, 'data/words.csv')
-
   logger.info(`Download ${profile.name}.${profile.type} file`)
   await downloadImageFile(page, profile)
 
