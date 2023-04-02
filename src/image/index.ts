@@ -1,1 +1,1 @@
-export * from './resizeImage'
+export * from './resizeImageFile'

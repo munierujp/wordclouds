@@ -1,5 +1,5 @@
 import type { Page } from 'playwright'
-import { resizeImage } from '../image'
+import { resizeImageFile } from '../image'
 import { logger } from '../logger'
 import { downloadImageFile } from './downloadImageFile'
 import { downloadWordCloudFile } from './downloadWordCloudFile'
@@ -19,7 +19,7 @@ export const generateWordCloud = async (page: Page, profile: Profile): Promise<v
 
   if (profile.maxWidth !== undefined) {
     logger.info(`Resize ${profile.name}.${profile.type} file`)
-    await resizeImage(`data/${profile.name}.${profile.type}`, profile.maxWidth)
+    await resizeImageFile(`data/${profile.name}.${profile.type}`, profile.maxWidth)
   }
 
   logger.info(`Download ${profile.name}.wcld2 file`)
