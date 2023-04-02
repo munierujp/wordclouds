@@ -1,3 +1,6 @@
 import { getLogger } from 'log4js'
+import { LogLevel } from './LogLevel'
 
-export const logger = getLogger()
+const logger = getLogger()
+logger.level = LogLevel.Info
+export { logger }

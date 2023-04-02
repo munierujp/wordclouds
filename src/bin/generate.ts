@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 
+import { logger } from '../logger'
 import { generateWordClouds } from '../wordclouds'
 
-console.log('Start generate')
+logger.info('Start generate')
 generateWordClouds()
   .then(() => {
-    console.log('End generate')
+    logger.info('End generate')
   })
   .catch((error: unknown) => {
-    console.error(error)
+    logger.fatal(error)
     throw error
   })

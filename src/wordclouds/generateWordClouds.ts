@@ -1,9 +1,10 @@
 import { chromium } from 'playwright'
+import { logger } from '../logger'
 import { profiles } from '../profile'
 import { generateWordCloud } from './generateWordCloud'
 
 export const generateWordClouds = async (): Promise<void> => {
-  console.log('Start generating word clouds')
+  logger.info('Start generating word clouds')
   const browser = await chromium.launch({ headless: false })
   const page = await browser.newPage()
   await page.goto('https://www.wordclouds.com/')
@@ -13,5 +14,5 @@ export const generateWordClouds = async (): Promise<void> => {
   }
 
   await browser.close()
-  console.log('End generating word clouds')
+  logger.info('End generating word clouds')
 }
