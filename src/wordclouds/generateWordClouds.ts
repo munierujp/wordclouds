@@ -14,5 +14,6 @@ export const generateWordClouds = async (): Promise<void> => {
     await generateWordCloud(page, profile)
   }
 
+  logger.info('Close browser')
   await browser.close()
 }
