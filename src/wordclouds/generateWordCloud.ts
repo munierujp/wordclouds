@@ -1,9 +1,9 @@
 import type { Page } from 'playwright'
-import { resizeImageFile } from '../image'
 import { logger } from '../logger'
 import type { Profile } from '../profile'
 import { downloadImageFile } from './downloadImageFile'
 import { downloadWordCloudFile } from './downloadWordCloudFile'
+import { resizeImageFile } from './resizeImageFile'
 import { uploadWordCloudFile } from './uploadWordCloudFile'
 import { uploadWordListFile } from './uploadWordListFile'
 
