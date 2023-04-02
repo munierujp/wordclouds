@@ -29,3 +29,11 @@ To generate word clouds, run the following command:
 ```sh
 npm start
 ```
+
+### How to update images
+
+To update images for each site, upload them manually from links below:
+
+- [pixiv](https://www.pixiv.net/settings/profile)
+- [Tabelog](https://tabelog.com/rvwr/munieru/)
+- [Twitter](https://twitter.com/settings/profile)
