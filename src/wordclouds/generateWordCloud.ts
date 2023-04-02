@@ -1,8 +1,8 @@
 import type { Page } from 'playwright'
 import { logger } from '../logger'
-import type { Profile } from '../profile'
 import { downloadImageFile } from './downloadImageFile'
 import { downloadWordCloudFile } from './downloadWordCloudFile'
+import type { Profile } from './Profile'
 import { uploadWordCloudFile } from './uploadWordCloudFile'
 import { uploadWordListFile } from './uploadWordListFile'
 

@@ -1,7 +1,7 @@
 import { chromium } from 'playwright'
 import { logger } from '../logger'
-import { profiles } from '../profile'
 import { generateWordCloud } from './generateWordCloud'
+import { profiles } from './profiles'
 
 export const generateWordClouds = async (): Promise<void> => {
   logger.info('Launch browser')
