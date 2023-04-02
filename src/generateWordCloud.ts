@@ -11,7 +11,7 @@ export const generateWordCloud = async (page: Page, profile: Profile): Promise<v
   await uploadWordCloudFile(page, profile.input)
   console.log('Upload data/words.csv file')
   await uploadWordListFile(page, 'data/words.csv')
-  console.log(`Download ${profile.output} file`)
+  console.log(`Download ${profile.name}.${profile.type} file`)
   await downloadImageFile(page, profile)
   console.log(`Download ${profile.input} file`)
   await downloadWordCloudFile(page, profile.input)

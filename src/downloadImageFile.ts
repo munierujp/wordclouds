@@ -11,5 +11,5 @@ export const downloadImageFile = async (page: Page, profile: Profile): Promise<v
   const downloadPromise = page.waitForEvent('download')
   await page.click(Selector.DownloadButton)
   const download = await downloadPromise
-  await download.saveAs(profile.output)
+  await download.saveAs(`data/${profile.name}.${profile.type}`)
 }
