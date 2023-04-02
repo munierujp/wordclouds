@@ -1,5 +1,5 @@
 import type { Page } from 'playwright'
-import type { Profile } from '../Profile'
+import type { Profile } from '../profile'
 import { downloadImageFile } from './downloadImageFile'
 import { downloadWordCloudFile } from './downloadWordCloudFile'
 import { uploadWordCloudFile } from './uploadWordCloudFile'
