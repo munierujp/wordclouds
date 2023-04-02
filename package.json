@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "clean": "rimraf dist",
-    "generate": "ts-node src/generate.ts",
+    "generate": "ts-node src/bin/generate.ts",
     "lint": "eslint '**/*.{js,ts}'",
     "prebuild": "npm run clean"
   },
