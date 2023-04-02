@@ -9,9 +9,7 @@ export const generateWordClouds = async (): Promise<void> => {
   await page.goto('https://www.wordclouds.com/')
 
   for (const profile of profiles) {
-    console.log(`Start generating word cloud for ${profile.name}`)
     await generateWordCloud(page, profile)
-    console.log(`End generating word cloud for ${profile.name}`)
   }
 
   await browser.close()
