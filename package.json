@@ -14,8 +14,7 @@
     "node": "18.15.0"
   },
   "dependencies": {
-    "playwright": "1.32.1",
-    "sleep-promise": "9.1.0"
+    "playwright": "1.32.1"
   },
   "devDependencies": {
     "@munierujp/eslint-config-typescript": "17.0.2",
