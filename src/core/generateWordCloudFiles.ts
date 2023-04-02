@@ -4,7 +4,7 @@ import type { Options } from '../options'
 import { profiles } from '../profile'
 import { generateWordCloud } from './generateWordCloud'
 
-export const generateWordClouds = async (options: Options): Promise<void> => {
+export const generateWordCloudFiles = async (options: Options): Promise<void> => {
   logger.info('Launch browser')
   const browser = await chromium.launch({ headless: options.headless })
   const page = await browser.newPage()

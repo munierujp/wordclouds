@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { generateWordClouds } from './core'
+import { generateWordCloudFiles } from './core'
 import { logger } from './logger'
 import { initOptions } from './options'
 
@@ -9,7 +9,7 @@ logger.level = options.logLevel
 logger.info('Start')
 logger.debug(`options=${JSON.stringify(options)}`)
 
-generateWordClouds(options)
+generateWordCloudFiles(options)
   .then(() => {
     logger.info('End')
   })
