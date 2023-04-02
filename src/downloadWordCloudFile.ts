@@ -8,4 +8,5 @@ export const downloadWordCloudFile = async (page: Page, filePath: string): Promi
   await page.click(Selector.SaveButton)
   const download = await downloadPromise
   await download.saveAs(filePath)
+  // TODO: JSON.stringify
 }
