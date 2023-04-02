@@ -8,4 +8,5 @@ export const uploadWordListFile = async (page: Page, filePath: string): Promise<
   await page.click(Selector.OpenWordListLink)
   const fileChooser = await fileChooserPromise
   await fileChooser.setFiles(filePath)
+  await page.click(Selector.ApplyWordListButton)
 }
