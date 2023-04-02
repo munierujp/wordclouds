@@ -22,10 +22,18 @@ My word cloud
 
 ## Usage
 
-### How to generate word clouds
+### Generate word clouds
 
 To generate word clouds, run the following command:
 
 ```sh
 npm start
 ```
+
+### Update images for each sites
+
+To update images for each site, upload them manually from links below:
+
+- [pixiv](https://www.pixiv.net/settings/profile)
+- [Tabelog](https://tabelog.com/rvwr/munieru/)
+- [Twitter](https://twitter.com/settings/profile)
