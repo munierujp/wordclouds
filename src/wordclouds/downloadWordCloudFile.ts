@@ -14,6 +14,6 @@ export const downloadWordCloudFile = async (page: Page, path: string): Promise<v
   const download = await downloadPromise
   await download.saveAs(path)
   const json = await readFile(path)
-  const beautified = beautifyJson(json)
-  await writeFile(path, beautified)
+  const beautifiedJson = beautifyJson(json)
+  await writeFile(path, beautifiedJson)
 }
