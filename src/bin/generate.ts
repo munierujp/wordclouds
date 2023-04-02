@@ -2,10 +2,10 @@
 
 import { generateWordClouds } from '../generateWordClouds'
 
-console.log('Start generate script')
+console.log('Start generate')
 generateWordClouds()
   .then(() => {
-    console.log('End generate script')
+    console.log('End generate')
   })
   .catch((error: unknown) => {
     console.error(error)
