@@ -1,4 +1,9 @@
 import type { Page } from 'playwright'
+import {
+  readFile,
+  writeFile
+} from '../file'
+import { beautifyJson } from '../json'
 import { Selector } from './Selector'
 
 export const downloadWordCloudFile = async (page: Page, path: string): Promise<void> => {
@@ -8,5 +13,7 @@ export const downloadWordCloudFile = async (page: Page, path: string): Promise<v
   await page.click(Selector.SaveButton)
   const download = await downloadPromise
   await download.saveAs(path)
-  // TODO: JSON.stringify
+  const json = await readFile(path)
+  const beautified = beautifyJson(json)
+  await writeFile(path, beautified)
 }
