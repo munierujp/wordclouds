@@ -12,5 +12,6 @@ export const resizeImage = async (path: string, maxWidth: number): Promise<void>
     return
   }
 
-  await input.resize({ width: maxWidth }).toFile(path)
+  const buffer = await input.resize({ width: maxWidth }).toBuffer()
+  await sharp(buffer).toFile(path)
 }
