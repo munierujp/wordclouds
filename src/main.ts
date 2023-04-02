@@ -7,8 +7,9 @@ import { generateWordClouds } from './wordclouds'
 const options = initOptions()
 logger.level = options.logLevel
 logger.info('Start')
+logger.debug(`options=${JSON.stringify(options)}`)
 
-generateWordClouds()
+generateWordClouds(options)
   .then(() => {
     logger.info('End')
   })

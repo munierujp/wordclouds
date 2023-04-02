@@ -1,4 +1,5 @@
 import {
+  boolean,
   literal,
   type,
   union
@@ -7,6 +8,7 @@ import type { TypeOf } from 'io-ts'
 import { LogLevel } from '../logger'
 
 const Options = type({
+  headless: boolean,
   logLevel: union([
     literal(LogLevel.Off),
     literal(LogLevel.Fatal),

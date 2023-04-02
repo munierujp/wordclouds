@@ -4,6 +4,13 @@ import { OptionType } from './OptionType'
 
 export const cliOptions: CLIOption[] = [
   {
+    name: 'headless',
+    description: 'Use headless mode',
+    type: OptionType.Boolean,
+    required: false,
+    default: true
+  },
+  {
     name: 'log-level',
     description: 'Log level to show',
     type: OptionType.String,
