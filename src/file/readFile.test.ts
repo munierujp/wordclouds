@@ -22,9 +22,9 @@ describe('readFile', () => {
   })
 
   it('calls fs.promises.readFile()', async () => {
-    const expected = 'file data'
+    const expected = 'test data'
     readFileMock.mockResolvedValue(expected)
-    const path = 'package.json'
+    const path = 'test.txt'
 
     const actual = await readFile(path)
 
