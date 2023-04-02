@@ -13,6 +13,9 @@ const config = {
   ],
   parserOptions: {
     project: './tsconfig.json'
+  },
+  rules: {
+    'no-console': 'error'
   }
 }
 
