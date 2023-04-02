@@ -1,6 +1,6 @@
 import { chromium } from 'playwright'
-import { profiles } from './profiles'
-import { generateWordCloud } from './wordclouds'
+import { profiles } from '../profiles'
+import { generateWordCloud } from './generateWordCloud'
 
 export const generateWordClouds = async (): Promise<void> => {
   console.log('Start generating word clouds')

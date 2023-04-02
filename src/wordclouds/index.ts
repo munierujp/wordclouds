@@ -1,1 +1,1 @@
-export * from './generateWordCloud'
+export * from './generateWordClouds'

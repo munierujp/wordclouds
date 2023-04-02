@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { generateWordClouds } from '../generateWordClouds'
+import { generateWordClouds } from '../wordclouds'
 
 console.log('Start generate')
 generateWordClouds()
