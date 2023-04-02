@@ -22,7 +22,7 @@
     "playwright": "1.32.1"
   },
   "devDependencies": {
-    "@munierujp/eslint-config-typescript": "17.0.2",
+    "@munierujp/eslint-config-typescript": "18.0.0",
     "@tsconfig/node18": "1.0.1",
     "@types/node": "18.15.11",
     "eslint": "8.37.0",
