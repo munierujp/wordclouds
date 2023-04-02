@@ -8,21 +8,31 @@ import { resizeImageFile } from './resizeImageFile'
 import { uploadWordCloudFile } from './uploadWordCloudFile'
 import { uploadWordListFile } from './uploadWordListFile'
 
+const OUTPUT_DIRECTORY = 'data'
+const WORD_LIST_FILE_NAME = 'words.csv'
+
 export const generateWordCloudFile = async (page: Page, profile: Profile): Promise<void> => {
-  logger.info(`Upload ${profile.name}.wcld2 file`)
-  await uploadWordCloudFile(page, `data/${profile.name}.wcld2`)
-  logger.info('Upload words.csv file')
-  await uploadWordListFile(page, 'data/words.csv')
-  logger.info(`Download ${profile.name}.${profile.type} file`)
-  await downloadImageFile(page, profile)
+  const wordCloudFileName = `${profile.name}.wcld2`
+
+  logger.info(`Upload ${wordCloudFileName}`)
+  await uploadWordCloudFile(page, `${OUTPUT_DIRECTORY}/${wordCloudFileName}`)
+
+  logger.info(`Upload ${WORD_LIST_FILE_NAME}`)
+  await uploadWordListFile(page, `${OUTPUT_DIRECTORY}/${WORD_LIST_FILE_NAME}`)
+
+  const imageFileName = `${profile.name}.${profile.type}`
+
+  logger.info(`Download ${imageFileName}`)
+  await downloadImageFile(page, `${OUTPUT_DIRECTORY}/${imageFileName}`, profile.type)
 
   if (profile.maxWidth !== undefined) {
-    logger.info(`Resize ${profile.name}.${profile.type} file`)
-    await resizeImageFile(`data/${profile.name}.${profile.type}`, profile.maxWidth)
+    logger.info(`Resize ${imageFileName}`)
+    await resizeImageFile(`${OUTPUT_DIRECTORY}/${imageFileName}`, profile.maxWidth)
   }
 
-  logger.info(`Download ${profile.name}.wcld2 file`)
-  await downloadWordCloudFile(page, `data/${profile.name}.wcld2`)
-  logger.info(`Beautify ${profile.name}.wcld2 file`)
-  await beautifyJsonFile(`data/${profile.name}.wcld2`)
+  logger.info(`Download ${wordCloudFileName}`)
+  await downloadWordCloudFile(page, `${OUTPUT_DIRECTORY}/${wordCloudFileName}`)
+
+  logger.info(`Beautify ${wordCloudFileName}`)
+  await beautifyJsonFile(`${OUTPUT_DIRECTORY}/${wordCloudFileName}`)
 }
