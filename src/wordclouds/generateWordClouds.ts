@@ -4,9 +4,10 @@ import { profiles } from '../profile'
 import { generateWordCloud } from './generateWordCloud'
 
 export const generateWordClouds = async (): Promise<void> => {
-  logger.info('Start generating word clouds')
+  logger.info('Launch browser')
   const browser = await chromium.launch({ headless: false })
   const page = await browser.newPage()
+  logger.info('Open https://www.wordclouds.com/')
   await page.goto('https://www.wordclouds.com/')
 
   for (const profile of profiles) {
@@ -14,5 +15,4 @@ export const generateWordClouds = async (): Promise<void> => {
   }
 
   await browser.close()
-  logger.info('End generating word clouds')
 }
