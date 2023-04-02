@@ -19,3 +19,13 @@ My word cloud
 ### Zoom
 
 ![wordcloud_zoom.png](data/zoom.png)
+
+## Usage
+
+### How to generate word clouds
+
+To generate word clouds, run the following command:
+
+```sh
+npm start
+```

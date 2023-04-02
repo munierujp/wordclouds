@@ -6,9 +6,9 @@
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "clean": "rimraf dist",
-    "generate": "ts-node src/bin/generate.ts",
     "lint": "eslint '**/*.{js,ts}'",
     "prebuild": "npm run clean",
+    "start": "ts-node src/main.ts",
     "test": "jest --passWithNoTests"
   },
   "engines": {
