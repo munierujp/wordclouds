@@ -4,7 +4,8 @@ import type { Profile } from './Profile'
 export const profiles: Profile[] = [
   {
     name: 'pixiv',
-    type: FileType.Png
+    type: FileType.Png,
+    maxWidth: 4096
   },
   {
     name: 'tabelog',
