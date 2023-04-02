@@ -2,7 +2,7 @@ import { chromium } from 'playwright'
 import { logger } from '../logger'
 import type { Options } from '../options'
 import { profiles } from '../profile'
-import { generateWordCloud } from './generateWordCloud'
+import { generateWordCloudFile } from './generateWordCloudFile'
 
 export const generateWordCloudFiles = async (options: Options): Promise<void> => {
   logger.info('Launch browser')
@@ -12,7 +12,7 @@ export const generateWordCloudFiles = async (options: Options): Promise<void> =>
   await page.goto('https://www.wordclouds.com/')
 
   for (const profile of profiles) {
-    await generateWordCloud(page, profile)
+    await generateWordCloudFile(page, profile)
   }
 
   logger.info('Close browser')

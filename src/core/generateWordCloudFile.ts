@@ -7,7 +7,7 @@ import { resizeImageFile } from './resizeImageFile'
 import { uploadWordCloudFile } from './uploadWordCloudFile'
 import { uploadWordListFile } from './uploadWordListFile'
 
-export const generateWordCloud = async (page: Page, profile: Profile): Promise<void> => {
+export const generateWordCloudFile = async (page: Page, profile: Profile): Promise<void> => {
   logger.info(`Upload ${profile.name}.wcld2 file`)
   await uploadWordCloudFile(page, `data/${profile.name}.wcld2`)
 
