@@ -3,6 +3,10 @@ import type { Profile } from './Profile'
 
 export const profiles: Profile[] = [
   {
+    name: 'anatag-like',
+    type: FileType.Png
+  },
+  {
     name: 'pixiv',
     type: FileType.Png,
     maxWidth: 4096
