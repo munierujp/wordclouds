@@ -8,13 +8,13 @@ My word cloud
 
 ![wordcloud_pixiv.png](data/pixiv.png)
 
-### Tabelog
-
-![wordcloud_tabelog.jpg](data/tabelog.jpg)
+https://pixiv.me/munieru_jp
 
 ### Twitter
 
 ![wordcloud_twitter.png](data/twitter.png)
+
+https://twitter.com/munieru_jp
 
 ### Zoom
 
@@ -24,7 +24,11 @@ My word cloud
 
 ![anatag-like.png](data/anatag-like.png)
 
-https://anatag.yahoo.co.jp/
+### 食べログ
+
+![wordcloud_tabelog.jpg](data/tabelog.jpg)
+
+https://tabelog.com/rvwr/munieru/
 
 ## Usage
 
