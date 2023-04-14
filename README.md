@@ -45,5 +45,5 @@ npm start
 To update images for each site, upload them manually from links below:
 
 - [pixiv](https://www.pixiv.net/settings/profile)
-- [Tabelog](https://tabelog.com/rvwr/munieru/)
 - [Twitter](https://twitter.com/settings/profile)
+- [食べログ](https://tabelog.com/rvwr/munieru/)
