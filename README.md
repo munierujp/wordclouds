@@ -20,6 +20,12 @@ My word cloud
 
 ![wordcloud_zoom.png](data/zoom.png)
 
+### あなたぐ風
+
+![anatag-like.png](data/anatag-like.png)
+
+https://anatag.yahoo.co.jp/
+
 ## Usage
 
 ### Generate word clouds
