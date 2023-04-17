@@ -4,7 +4,7 @@
 
 # wordcloud
 
-My word cloud
+My word clouds
 
 ## Images
 
