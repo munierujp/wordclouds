@@ -1,7 +1,7 @@
 {
   "name": "wordcloud",
   "version": "0.1.0",
-  "description": "My word cloud",
+  "description": "My word clouds",
   "private": true,
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
