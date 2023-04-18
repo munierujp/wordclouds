@@ -7,13 +7,6 @@
 My word clouds
 
 ## Images
-
-### pixiv
-
-![wordcloud_pixiv.png](data/pixiv.png)
-
-https://pixiv.me/munieru_jp
-
 ### Twitter
 
 ![wordcloud_twitter.png](data/twitter.png)
@@ -48,6 +41,5 @@ npm start
 
 To update images for each site, upload them manually from links below:
 
-- [pixiv](https://www.pixiv.net/settings/profile)
 - [Twitter](https://twitter.com/settings/profile)
 - [食べログ](https://tabelog.com/rvwr/munieru/)
