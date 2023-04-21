@@ -25,7 +25,7 @@
   "devDependencies": {
     "@munierujp/eslint-config-typescript": "18.0.0",
     "@tsconfig/node18": "2.0.0",
-    "@types/node": "18.15.12",
+    "@types/node": "18.15.13",
     "eslint": "8.38.0",
     "jest": "29.5.0",
     "rimraf": "5.0.0",
