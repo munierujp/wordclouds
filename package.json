@@ -23,7 +23,7 @@
     "sharp": "0.32.1"
   },
   "devDependencies": {
-    "@munierujp/eslint-config-typescript": "19.0.0",
+    "@munierujp/eslint-config-typescript": "20.0.0",
     "@tsconfig/node18": "2.0.0",
     "@types/node": "18.15.13",
     "eslint": "8.39.0",
