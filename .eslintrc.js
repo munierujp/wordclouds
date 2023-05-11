@@ -15,8 +15,10 @@ const config = {
     project: './tsconfig.json'
   },
   rules: {
-    'no-console': 'error'
+    'no-console': 'error',
+    'unicorn/prefer-top-level-await': 'off'
   }
 }
 
+// eslint-disable-next-line unicorn/prefer-module
 module.exports = config
