@@ -1,6 +1,6 @@
 {
   "version": "3.9.7",
-  "date": "2023-05-07T03:54:01.897Z",
+  "date": "2023-05-13T12:04:44.434Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -13,7 +13,7 @@
     "fitWords": true,
     "keepDrawing": false,
     "mask": null,
-    "maskColor": "rgba(255, 255, 255, 0.1)",
+    "maskColor": "rgba(0, 0, 0, 0.1)",
     "maskMargin": 5,
     "invertMask": false,
     "drawMask": false,
@@ -29,13 +29,10 @@
       "Noto Sans JP"
     ],
     "colors": [
-      "rgba(255, 255, 255, 1)",
-      "rgba(156.99999999999997, 170, 241.99999999999997, 1)",
-      "rgba(255, 105.99999999999996, 61.00000000000001, 1)",
-      "rgba(244, 219, 125, 1)"
+      "rgba(255, 170.99999999999991, 0, 1)"
     ],
     "wordColorMode": "default",
-    "background": "#1a2238",
+    "background": "rgba(255, 255, 255, 1)",
     "minSize": 5,
     "wordMargin": 2
   },
