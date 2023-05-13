@@ -1,6 +1,6 @@
 {
   "version": "3.9.7",
-  "date": "2023-05-07T03:54:35.634Z",
+  "date": "2023-05-13T12:55:17.059Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -35,7 +35,7 @@
       "rgba(244, 219, 125, 1)"
     ],
     "wordColorMode": "default",
-    "background": "#1a2238",
+    "background": "rgba(33, 33, 33, 1)",
     "minSize": 5,
     "wordMargin": 2
   },
