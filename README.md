@@ -11,7 +11,7 @@ My word clouds
 
 ![anatag-like.png](data/anatag-like.png)
 
-### Google スライド
+### Google Slides
 
 ![google-slide.png](data/google-slide.png)
 
