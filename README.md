@@ -7,6 +7,20 @@
 My word clouds
 
 ## Images
+### あなたぐ風
+
+![anatag-like.png](data/anatag-like.png)
+
+### Google スライド
+
+![google-slide.png](data/google-slide.png)
+
+### 食べログ
+
+![wordcloud_tabelog.jpg](data/tabelog.jpg)
+
+https://tabelog.com/rvwr/munieru/
+
 ### Twitter
 
 ![wordcloud_twitter.png](data/twitter.png)
@@ -16,16 +30,6 @@ https://twitter.com/munieru_jp
 ### Zoom
 
 ![wordcloud_zoom.png](data/zoom.png)
-
-### あなたぐ風
-
-![anatag-like.png](data/anatag-like.png)
-
-### 食べログ
-
-![wordcloud_tabelog.jpg](data/tabelog.jpg)
-
-https://tabelog.com/rvwr/munieru/
 
 ## Usage
 
