@@ -15,6 +15,8 @@ My word clouds
 
 ![google-slides.png](data/google-slides.png)
 
+![google-slides_vue.png](data/google-slides_vue.png)
+
 ### 食べログ
 
 ![wordcloud_tabelog.jpg](data/tabelog.jpg)
