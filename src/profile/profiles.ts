@@ -7,7 +7,7 @@ export const profiles: Profile[] = [
     type: FileType.Png
   },
   {
-    name: 'google-slide',
+    name: 'google-slides',
     type: FileType.Png
   },
   {
