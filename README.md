@@ -13,7 +13,7 @@ My word clouds
 
 ### Google Slides
 
-![google-slide.png](data/google-slide.png)
+![google-slides.png](data/google-slides.png)
 
 ### 食べログ
 
