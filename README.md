@@ -11,17 +11,10 @@
 ![anatag-like.png](data/anatag-like.png)
 
 ## Googleスライド
-### ダーク
 
 ![google-slides-dark.png](data/google-slides-dark.png)
 
-### ライト
-
 ![google-slides-light.png](data/google-slides-light.png)
-
-### Vue.js
-
-![google-slides-vue.png](data/google-slides-vue.png)
 
 ## 食べログ
 
