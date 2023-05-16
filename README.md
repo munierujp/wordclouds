@@ -13,7 +13,7 @@ My word clouds
 
 ### Google Slides
 
-![google-slides.png](data/google-slides.png)
+![google-slides-dark.png](data/google-slides-dark.png)
 
 ![google-slides_vue.png](data/google-slides_vue.png)
 
