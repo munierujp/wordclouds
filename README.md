@@ -15,7 +15,7 @@ My word clouds
 
 ![google-slides-dark.png](data/google-slides-dark.png)
 
-![google-slides_vue.png](data/google-slides_vue.png)
+![google-slides-vue.png](data/google-slides-vue.png)
 
 ### 食べログ
 
