@@ -15,10 +15,6 @@ export const profiles: Profile[] = [
     type: FileType.Png
   },
   {
-    name: 'google-slides-vue',
-    type: FileType.Png
-  },
-  {
     name: 'tabelog',
     type: FileType.Jpg
   },
