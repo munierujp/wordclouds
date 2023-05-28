@@ -1,6 +1,6 @@
 {
   "version": "3.9.10",
-  "date": "2023-05-28T14:19:52.678Z",
+  "date": "2023-05-28T14:28:08.691Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -78,12 +78,6 @@
     ],
     [
       "JavaScript",
-      25,
-      "",
-      ""
-    ],
-    [
-      "Kindle",
       25,
       "",
       ""
