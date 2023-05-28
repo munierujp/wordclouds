@@ -12,5 +12,6 @@ export const Selector = {
   SaveWordCloudLink: '#fileMenu .dropdown-item[data-task="saveWordcloud"]',
   WordListLink: '#wizWordList .nav-link'
 } as const
+
 // eslint-disable-next-line @typescript-eslint/no-redeclare
 export type Selector = typeof Selector[keyof typeof Selector]
