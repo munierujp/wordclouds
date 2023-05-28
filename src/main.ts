@@ -1,7 +1,6 @@
 import { generateWordCloudFiles } from './core'
 import { logger } from './logger'
 import { initOptions } from './options'
-import { handleError } from './util'
 
 const options = initOptions()
 logger.level = options.logLevel
@@ -12,4 +11,7 @@ generateWordCloudFiles(options)
   .then(() => {
     logger.info('End')
   })
-  .catch(handleError)
+  .catch((error: unknown) => {
+    logger.fatal(error)
+    throw error
+  })
