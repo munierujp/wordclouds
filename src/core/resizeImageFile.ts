@@ -4,11 +4,7 @@ export const resizeImageFile = async (path: string, maxWidth: number): Promise<v
   const input = sharp(path)
   const { width } = await input.metadata()
 
-  if (width === undefined) {
-    return
-  }
-
-  if (width <= maxWidth) {
+  if (width === undefined || width <= maxWidth) {
     return
   }
 
