@@ -9,5 +9,6 @@ export const resizeImageFile = async (path: string, maxWidth: number): Promise<v
   }
 
   const buffer = await input.resize({ width: maxWidth }).toBuffer()
-  await sharp(buffer).toFile(path)
+  const output = sharp(buffer)
+  await output.toFile(path)
 }
