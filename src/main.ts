@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { generateWordCloudFiles } from './core'
 import { logger } from './logger'
 import { initOptions } from './options'
