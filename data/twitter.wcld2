@@ -1,6 +1,6 @@
 {
   "version": "3.9.11",
-  "date": "2023-05-31T12:47:57.178Z",
+  "date": "2023-05-31T13:46:50.309Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -114,12 +114,6 @@
     ],
     [
       "QuizKnock",
-      25,
-      "",
-      ""
-    ],
-    [
-      "Slack",
       25,
       "",
       ""
