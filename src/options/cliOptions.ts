@@ -25,5 +25,11 @@ export const cliOptions: CLIOption[] = [
       LogLevel.Trace
     ],
     default: LogLevel.Info
+  },
+  {
+    name: 'profile',
+    description: 'Profile to use',
+    type: OptionType.String,
+    required: false
   }
 ]
