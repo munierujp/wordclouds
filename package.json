@@ -15,7 +15,7 @@
     "node": "18.15.0"
   },
   "dependencies": {
-    "commander": "10.0.1",
+    "commander": "11.0.0",
     "fp-ts": "2.16.0",
     "io-ts": "2.2.20",
     "log4js": "6.9.1",
