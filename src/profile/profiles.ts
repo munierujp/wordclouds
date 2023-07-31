@@ -19,7 +19,7 @@ export const profiles: Profile[] = [
     type: FileType.Jpg
   },
   {
-    name: 'twitter',
+    name: 'x',
     type: FileType.Png
   },
   {
