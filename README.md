@@ -18,12 +18,12 @@
 
 ## 食べログ
 
-![wordcloud_tabelog.jpg](data/tabelog.jpg)
+![tabelog.jpg](data/tabelog.jpg)
 
-## Twitter
+## X
 
-![wordcloud_twitter.png](data/twitter.png)
+![x.png](data/x.png)
 
 ## Zoom
 
-![wordcloud_zoom.png](data/zoom.png)
+![zoom.png](data/zoom.png)
