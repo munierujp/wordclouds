@@ -7,6 +7,7 @@ export const Selector = {
   OpenWordCloudLink: '#fileMenu .dropdown-item[data-task="openWordcloud"]',
   OpenWordListLink: '#toolControls .browseBtn',
   PngButton: '#toolControls .btn[data-filetype="png"]',
+  SaveAsJpgButton: 'button:has-text("Save as JPG")',
   SaveButton: '#applyBtn',
   SaveImageLink: '#fileMenu .dropdown-item[data-task="saveImageAs,hd"]',
   SaveWordCloudLink: '#fileMenu .dropdown-item[data-task="saveWordcloud"]',
