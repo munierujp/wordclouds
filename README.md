@@ -1,4 +1,3 @@
-[![build](https://github.com/munierujp/wordcloud/actions/workflows/build.yml/badge.svg)](https://github.com/munierujp/wordcloud/actions/workflows/build.yml)
 [![lint](https://github.com/munierujp/wordcloud/actions/workflows/lint.yml/badge.svg)](https://github.com/munierujp/wordcloud/actions/workflows/lint.yml)
 [![test](https://github.com/munierujp/wordcloud/actions/workflows/test.yml/badge.svg)](https://github.com/munierujp/wordcloud/actions/workflows/test.yml)
 
