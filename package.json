@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "commander": "11.1.0",
-    "fp-ts": "2.16.1",
+    "fp-ts": "2.16.2",
     "io-ts": "2.2.21",
     "log4js": "6.9.1",
     "playwright": "1.37.1",
