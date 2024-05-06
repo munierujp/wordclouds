@@ -1,1 +1,1 @@
-export * from './beautifyJson'
+export * from './beautifyJson.js'

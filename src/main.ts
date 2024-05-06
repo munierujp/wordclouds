@@ -1,6 +1,6 @@
-import { generateWordCloudFiles } from './core'
-import { logger } from './logger'
-import { initOptions } from './options'
+import { generateWordCloudFiles } from './core/index.js'
+import { logger } from './logger/index.js'
+import { initOptions } from './options/index.js'
 
 const options = initOptions()
 logger.level = options.logLevel

@@ -1,8 +1,8 @@
 import { chromium } from 'playwright'
-import { logger } from '../logger'
+import { logger } from '../logger/index.js'
 import type { Options } from '../options'
-import { profiles } from '../profile'
-import { generateWordCloudFile } from './generateWordCloudFile'
+import { profiles } from '../profile/index.js'
+import { generateWordCloudFile } from './generateWordCloudFile.js'
 
 export const generateWordCloudFiles = async (options: Options): Promise<void> => {
   const targetProfiles = options.profile === undefined ? profiles : profiles.filter((profile) => profile.name === options.profile)

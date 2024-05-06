@@ -1,2 +1,2 @@
-export * from './initOptions'
-export * from './Options'
+export * from './initOptions.js'
+export * from './Options.js'

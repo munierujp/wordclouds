@@ -1,3 +1,3 @@
-export * from './FileType'
-export * from './profiles'
-export * from './Profile'
+export * from './FileType.js'
+export * from './profiles.js'
+export * from './Profile.js'

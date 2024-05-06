@@ -1,2 +1,2 @@
-export * from './readFile'
-export * from './writeFile'
+export * from './readFile.js'
+export * from './writeFile.js'

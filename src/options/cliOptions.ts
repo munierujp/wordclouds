@@ -1,6 +1,6 @@
-import { LogLevel } from '../logger'
-import type { CLIOption } from './CLIOption'
-import { OptionType } from './OptionType'
+import { LogLevel } from '../logger/index.js'
+import type { CLIOption } from './CLIOption.ts'
+import { OptionType } from './OptionType.js'
 
 export const cliOptions: CLIOption[] = [
   {

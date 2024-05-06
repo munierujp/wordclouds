@@ -1,9 +1,9 @@
 import { program } from 'commander'
 import pkg from '../../package.json'
-import type { CLIOption } from './CLIOption'
-import { isOptions } from './Options'
-import type { Options } from './Options'
-import { toCommanderOption } from './toCommanderOption'
+import type { CLIOption } from './CLIOption.ts'
+import { isOptions } from './Options.js'
+import type { Options } from './Options.ts'
+import { toCommanderOption } from './toCommanderOption.js'
 
 export const createOptions = (cliOptions: CLIOption[]): Options => {
   program.version(pkg.version)

@@ -1,2 +1,2 @@
-export * from './logger'
-export * from './LogLevel'
+export * from './logger.js'
+export * from './LogLevel.js'
