@@ -1,4 +1,4 @@
-import { LogLevel } from '../logger/index.js'
+import { LogLevel } from '../logger/LogLevel.js'
 import type { CLIOption } from './CLIOption.js'
 import { OptionType } from './OptionType.js'
 

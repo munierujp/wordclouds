@@ -1,7 +1,7 @@
 import { chromium } from 'playwright'
-import { logger } from '../logger/index.js'
-import type { Options } from '../options'
-import { profiles } from '../profile/index.js'
+import { logger } from '../logger/logger.js'
+import type { Options } from '../options/Options.js'
+import { profiles } from '../profile/profiles.js'
 import { generateWordCloudFile } from './generateWordCloudFile.js'
 
 export const generateWordCloudFiles = async (options: Options): Promise<void> => {
