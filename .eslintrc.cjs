@@ -14,8 +14,7 @@ const config = {
     project: './tsconfig.json'
   },
   rules: {
-    'no-console': 'error',
-    'unicorn/prefer-top-level-await': 'off'
+    'no-console': 'error'
   },
   overrides: [
     // https://typescript-eslint.io/troubleshooting/#i-get-errors-telling-me-eslint-was-configured-to-run--however-that-tsconfig-does-not--none-of-those-tsconfigs-include-this-file
