@@ -1,5 +1,5 @@
 import { Option } from 'commander'
-import type { CLIOption } from './CLIOption.ts'
+import type { CLIOption } from './CLIOption.js'
 import { OptionType } from './OptionType.js'
 import { parseBooleanOption } from './parseBooleanOption.js'
 import { parseNumberOption } from './parseNumberOption.js'

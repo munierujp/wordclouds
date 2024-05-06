@@ -1,6 +1,6 @@
 import type { Page } from 'playwright'
 import { logger } from '../logger/index.js'
-import type { Profile } from '../profile'
+import type { Profile } from '../profile/Profile.js'
 import { beautifyJsonFile } from './beautifyJsonFile.js'
 import { downloadImageFile } from './downloadImageFile.js'
 import { downloadWordCloudFile } from './downloadWordCloudFile.js'
