@@ -2,6 +2,7 @@
   "name": "wordcloud",
   "version": "0.1.0",
   "description": "My word clouds",
+  "type": "module",
   "private": true,
   "scripts": {
     "lint": "eslint '**/*.{js,ts}'",
