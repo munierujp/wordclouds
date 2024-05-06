@@ -2,10 +2,11 @@
   "name": "wordcloud",
   "version": "0.1.0",
   "description": "My word clouds",
+  "type": "module",
   "private": true,
   "scripts": {
-    "lint": "eslint '**/*.{js,ts}'",
-    "start": "ts-node src/main.ts",
+    "lint": "eslint '**/*.{js,cjs,mjs,ts,cts,mts}'",
+    "start": "tsx src/main.ts",
     "test": "jest --passWithNoTests"
   },
   "engines": {
@@ -26,7 +27,7 @@
     "eslint": "8.57.0",
     "jest": "29.7.0",
     "ts-jest": "29.1.2",
-    "ts-node": "10.9.2",
+    "tsx": "4.9.3",
     "typescript": "5.4.5"
   },
   "license": "MIT"

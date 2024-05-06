@@ -6,7 +6,7 @@ import {
   it,
   jest
 } from '@jest/globals'
-import { writeFile } from './writeFile'
+import { writeFile } from './writeFile.js'
 
 jest.mock('node:fs', () => ({
   promises: {

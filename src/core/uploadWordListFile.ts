@@ -1,5 +1,5 @@
 import type { Page } from 'playwright'
-import { Selector } from './Selector'
+import { Selector } from './Selector.js'
 
 export const uploadWordListFile = async (page: Page, path: string): Promise<void> => {
   await page.click(Selector.WordListLink)

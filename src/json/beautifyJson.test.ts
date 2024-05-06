@@ -3,7 +3,7 @@ import {
   expect,
   it
 } from '@jest/globals'
-import { beautifyJson } from './beautifyJson'
+import { beautifyJson } from './beautifyJson.js'
 
 describe('beautifyJson', () => {
   it('returns beautified JSON', async () => {
