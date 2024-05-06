@@ -5,7 +5,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "lint": "eslint '**/*.{js,ts}'",
+    "lint": "eslint '**/*.{js,cjs,mjs,ts,cts,mts}'",
     "start": "tsx src/main.ts",
     "test": "jest --passWithNoTests"
   },
