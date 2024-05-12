@@ -7,7 +7,7 @@
   "scripts": {
     "lint": "eslint '**/*.{js,cjs,mjs,ts,cts,mts}'",
     "start": "tsx src/main.ts",
-    "test": "jest --passWithNoTests"
+    "test": "glob -c 'tsx --test' 'src/**/*.test.ts'"
   },
   "engines": {
     "node": "20.12.2"

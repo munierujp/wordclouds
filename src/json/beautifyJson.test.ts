@@ -1,15 +1,16 @@
+import assert from 'node:assert'
 import {
   describe,
-  expect,
   it
-} from '@jest/globals'
+} from 'node:test'
 import { beautifyJson } from './beautifyJson.js'
 
+// eslint-disable-next-line @typescript-eslint/no-floating-promises
 describe('beautifyJson', () => {
-  it('returns beautified JSON', async () => {
+  // eslint-disable-next-line @typescript-eslint/no-floating-promises
+  it('returns beautified JSON', () => {
     const actual = beautifyJson('{"string":"string","number":1}')
-
-    expect(actual).toBe(`{
+    assert.strictEqual(actual, `{
   "string": "string",
   "number": 1
 }`)
