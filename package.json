@@ -18,7 +18,7 @@
     "io-ts": "2.2.21",
     "log4js": "6.9.1",
     "playwright": "1.44.1",
-    "sharp": "0.33.3"
+    "sharp": "0.33.4"
   },
   "devDependencies": {
     "@munierujp/eslint-config-typescript": "46.0.1",
