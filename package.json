@@ -5,7 +5,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "lint": "eslint '**/*.{js,cjs,mjs,ts,cts,mts}'",
+    "lint": "eslint --ignore-path .gitignore '**/*.{js,cjs,mjs,ts,cts,mts}'",
     "start": "tsx src/main.ts",
     "test": "glob -c 'node --test --import tsx/esm' 'src/**/*.test.ts'"
   },
