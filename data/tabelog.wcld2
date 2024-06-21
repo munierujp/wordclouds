@@ -1,6 +1,6 @@
 {
   "version": "3.21",
-  "date": "2024-05-20T16:18:11.029Z",
+  "date": "2024-06-21T14:06:09.208Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -360,6 +360,12 @@
     ],
     [
       "映画館",
+      25,
+      null,
+      null
+    ],
+    [
+      "怪盗クイーン",
       25,
       null,
       null
