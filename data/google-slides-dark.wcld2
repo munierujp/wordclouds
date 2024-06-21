@@ -1,6 +1,6 @@
 {
   "version": "3.21",
-  "date": "2024-06-21T14:05:31.191Z",
+  "date": "2024-06-21T14:09:36.534Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -474,6 +474,12 @@
     ],
     [
       "漫画",
+      25,
+      null,
+      null
+    ],
+    [
+      "夢水清志郎",
       25,
       null,
       null
