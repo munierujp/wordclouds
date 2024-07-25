@@ -1,6 +1,6 @@
 {
-  "version": "3.21",
-  "date": "2024-06-21T14:15:56.258Z",
+  "version": "3.3.3",
+  "date": "2024-07-25T15:34:33.266Z",
   "config": {
     "candidates": {
       "strategy": "circles",
