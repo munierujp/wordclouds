@@ -17,7 +17,7 @@
     "fp-ts": "2.16.9",
     "io-ts": "2.2.21",
     "log4js": "6.9.1",
-    "playwright": "1.48.1",
+    "playwright": "1.48.2",
     "sharp": "0.33.5"
   },
   "devDependencies": {
