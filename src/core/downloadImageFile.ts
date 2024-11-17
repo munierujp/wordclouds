@@ -11,4 +11,5 @@ export const downloadImageFile = async (page: Page, path: string, type: FileType
   await page.click(Selector.DownloadButton)
   const download = await downloadPromise
   await download.saveAs(path)
+  await page.click(Selector.CloseButton)
 }
