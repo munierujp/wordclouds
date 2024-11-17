@@ -1,15 +1,16 @@
 export const Selector = {
   ApplyWordListButton: '#offcanvasWordList .applyBtn',
-  DownloadButton: '#toolControls .download .btn',
+  CloseButton: '#closeBtn',
+  DownloadButton: '#downloadBtn',
   FileMenuLink: '#wizFileMenu .nav-link',
-  ImportCsvLink: '#wordlistMenu .dropdown-item[data-task="importCSV"]',
-  JpgButton: '#toolControls .btn[data-filetype="jpg"]',
-  OpenWordCloudLink: '#fileMenu .dropdown-item[data-task="openWordcloud"]',
+  ImportCsvLink: '#wordlistMenu [data-task="importCSV"]',
+  JpgButton: '#toolControls [data-filetype="jpg"]',
+  OpenWordCloudLink: '#fileMenu [data-task="openWordcloud"]',
   OpenWordListLink: '#toolControls .browseBtn',
-  PngButton: '#toolControls .btn[data-filetype="png"]',
+  PngButton: '#toolControls [data-filetype="png"]',
   SaveButton: '#applyBtn',
-  SaveImageLink: '#fileMenu .dropdown-item[data-task="saveImageAs,hd"]',
-  SaveWordCloudLink: '#fileMenu .dropdown-item[data-task="saveWordcloud"]',
+  SaveImageLink: '#fileMenu [data-task="saveImageAs,hd"]',
+  SaveWordCloudLink: '#fileMenu [data-task="saveWordcloud"]',
   WordListLink: '#wizWordList .nav-link'
 } as const
 // eslint-disable-next-line @typescript-eslint/no-redeclare
