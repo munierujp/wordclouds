@@ -1,6 +1,6 @@
 export const Selector = {
   ApplyWordListButton: '#offcanvasWordList .applyBtn',
-  DownloadButton: '#toolControls .download .btn',
+  DownloadButton: '#downloadBtn',
   FileMenuLink: '#wizFileMenu .nav-link',
   ImportCsvLink: '#wordlistMenu .dropdown-item[data-task="importCSV"]',
   JpgButton: '#toolControls .btn[data-filetype="jpg"]',
