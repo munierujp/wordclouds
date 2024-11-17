@@ -1,6 +1,6 @@
 export const Selector = {
   ApplyWordListButton: '#offcanvasWordList .applyBtn',
-  CloseButton: '#toolControls .btn-close',
+  CloseButton: '#closeBtn',
   DownloadButton: '#downloadBtn',
   FileMenuLink: '#wizFileMenu .nav-link',
   ImportCsvLink: '#wordlistMenu .dropdown-item[data-task="importCSV"]',
