@@ -10,7 +10,7 @@
     "test": "glob -c 'node --test --import tsx/esm' 'src/**/*.test.ts'"
   },
   "engines": {
-    "node": "20.12.2"
+    "node": "22.14.0"
   },
   "dependencies": {
     "commander": "12.1.0",
