@@ -1,6 +1,6 @@
 {
-  "version": "4.2.7",
-  "date": "2024-11-17T07:23:52.605Z",
+  "version": "4.3.6",
+  "date": "2025-02-23T16:20:19.837Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -99,12 +99,6 @@
     ],
     [
       "MIU404",
-      25,
-      null,
-      null
-    ],
-    [
-      "Netflix",
       25,
       null,
       null
