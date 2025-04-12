@@ -1,6 +1,6 @@
 {
-  "version": "4.5.3",
-  "date": "2025-04-02T17:37:06.254Z",
+  "version": "4.5.6",
+  "date": "2025-04-12T16:26:15.529Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -105,6 +105,12 @@
     ],
     [
       "QuizKnock",
+      25,
+      null,
+      null
+    ],
+    [
+      "RRR",
       25,
       null,
       null
