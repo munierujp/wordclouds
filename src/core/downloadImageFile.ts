@@ -8,8 +8,9 @@ export const downloadImageFile = async (page: Page, path: string, type: FileType
   await page.click(Selector.FileMenuLink)
   logger.debug(`[downloadImageFile] click ${Selector.SaveImageLink}`)
   await page.click(Selector.SaveImageLink)
-  logger.debug(`[downloadImageFile] click ${type === FileType.Jpg ? Selector.FileTypeJpgButton : Selector.FileTypePngButton}`)
-  await page.click(type === FileType.Jpg ? Selector.FileTypeJpgButton : Selector.FileTypePngButton)
+  const fileTypeButton = type === FileType.Jpg ? Selector.FileTypeJpgButton : Selector.FileTypePngButton
+  logger.debug(`[downloadImageFile] click ${fileTypeButton}`)
+  await page.click(fileTypeButton)
   logger.debug(`[downloadImageFile] click ${Selector.SaveButton}`)
   await page.click(Selector.SaveButton)
   const downloadPromise = page.waitForEvent('download')
