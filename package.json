@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@munierujp/eslint-config-typescript": "47.1.1",
-    "@tsconfig/node20": "20.1.5",
+    "@tsconfig/node22": "22.0.1",
     "@types/node": "22.15.19",
     "eslint": "8.57.1",
     "glob": "11.0.2",
