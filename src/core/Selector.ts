@@ -2,7 +2,7 @@ export const Selector = {
   CloseButton: '#closeBtn',
   DownloadButton: '#downloadBtn',
   FileMenuLink: '#wizFileMenu .nav-link',
-  FileTypeJpgButton: '#toolControls [data-filetype="jpg"]',
+  FileTypeJpgButton: '#offcanvasSidebar [data-filetype="jpg"]',
   FileTypePngButton: '#offcanvasSidebar [data-filetype="png"]',
   ImportCsvLink: '#wordlistMenu [data-task="importCSV"]',
   OpenWordCloudLink: '#fileMenu [data-task="openWordcloud"]',
