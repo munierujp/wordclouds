@@ -1,6 +1,6 @@
 {
-  "version": "4.5.6",
-  "date": "2025-04-12T17:39:39.557Z",
+  "version": "4.6.6",
+  "date": "2025-05-19T11:30:07.122Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -463,6 +463,12 @@
     ],
     [
       "涼宮ハルヒの憂鬱",
+      25,
+      null,
+      null
+    ],
+    [
+      "結束バンド",
       25,
       null,
       null
