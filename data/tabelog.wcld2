@@ -1,6 +1,6 @@
 {
-  "version": "4.6.6",
-  "date": "2025-05-19T11:29:20.560Z",
+  "version": "4.6.7",
+  "date": "2025-07-18T14:33:55.989Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -271,12 +271,6 @@
     ],
     [
       "はてなブックマーク",
-      25,
-      null,
-      null
-    ],
-    [
-      "フルハウス",
       25,
       null,
       null
