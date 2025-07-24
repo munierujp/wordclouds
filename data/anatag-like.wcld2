@@ -1,6 +1,6 @@
 {
   "version": "4.6.7",
-  "date": "2025-07-18T14:32:40.226Z",
+  "date": "2025-07-24T12:37:25.984Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -355,12 +355,6 @@
     ],
     [
       "三四郎",
-      25,
-      null,
-      null
-    ],
-    [
-      "週刊アスキー",
       25,
       null,
       null
