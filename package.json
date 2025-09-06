@@ -16,7 +16,7 @@
     "node": "22.15.1"
   },
   "dependencies": {
-    "commander": "12.1.0",
+    "commander": "13.1.0",
     "fp-ts": "2.16.11",
     "io-ts": "2.2.22",
     "log4js": "6.9.1",
