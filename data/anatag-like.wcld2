@@ -1,6 +1,6 @@
 {
-  "version": "4.7.1",
-  "date": "2025-09-06T06:30:25.172Z",
+  "version": "4.7.8",
+  "date": "2025-12-19T13:52:40.117Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -231,6 +231,12 @@
     ],
     [
       "さまぁ〜ず",
+      25,
+      null,
+      null
+    ],
+    [
+      "ズートピア",
       25,
       null,
       null
