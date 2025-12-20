@@ -7,7 +7,6 @@
   "scripts": {
     "build": "tsc --project tsconfig.build.json",
     "clean": "rimraf dist",
-    "lint": "eslint --ignore-path .gitignore '**/*.{js,cjs,mjs,ts,cts,mts}'",
     "prebuild": "npm run clean",
     "start": "tsx src/main.ts",
     "test": "glob -c 'node --test --import tsx/esm' 'src/**/*.test.ts'"
@@ -24,10 +23,8 @@
     "sharp": "0.34.5"
   },
   "devDependencies": {
-    "@munierujp/eslint-config-typescript": "47.1.1",
     "@tsconfig/bases": "1.0.16",
     "@types/node": "24.10.4",
-    "eslint": "8.57.1",
     "glob": "11.1.0",
     "rimraf": "6.1.2",
     "tsx": "4.21.0",
