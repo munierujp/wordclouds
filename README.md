@@ -4,10 +4,6 @@
 
 ワードクラウド
 
-## あなたぐ風
-
-![anatag-like.png](data/anatag-like.png)
-
 ## Googleスライド
 ### ダーク
 
@@ -16,6 +12,10 @@
 ### ライト
 
 ![google-slides-light.png](data/google-slides-light.png)
+
+## スクエア
+
+![square.png](data/square.png)
 
 ## 食べログ
 
