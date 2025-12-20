@@ -1,6 +1,6 @@
 {
   "version": "4.7.8",
-  "date": "2025-12-19T13:54:45.680Z",
+  "date": "2025-12-20T15:14:20.643Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -285,12 +285,6 @@
     ],
     [
       "はてなブックマーク",
-      25,
-      null,
-      null
-    ],
-    [
-      "ポケモン",
       25,
       null,
       null
