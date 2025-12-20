@@ -1,6 +1,6 @@
 {
   "version": "4.7.8",
-  "date": "2025-12-20T15:12:51.388Z",
+  "date": "2025-12-20T15:19:10.947Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -93,6 +93,12 @@
     ],
     [
       "JavaScript",
+      25,
+      null,
+      null
+    ],
+    [
+      "JELEE",
       25,
       null,
       null
