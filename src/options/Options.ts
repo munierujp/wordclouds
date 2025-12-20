@@ -8,7 +8,7 @@ import {
   union
 } from 'io-ts'
 import type { TypeOf } from 'io-ts'
-import { LogLevel } from '../logger/LogLevel.js'
+import { LogLevel } from '../logger/LogLevel.ts'
 
 const Options = intersection([
   type({

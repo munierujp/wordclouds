@@ -1,16 +1,10 @@
-import assert from 'node:assert'
-import {
-  describe,
-  it
-} from 'node:test'
-import { beautifyJson } from './beautifyJson.js'
+import { describe, it, type TestContext } from 'node:test'
+import { beautifyJson } from './beautifyJson.ts'
 
-// eslint-disable-next-line @typescript-eslint/no-floating-promises
 describe('beautifyJson', () => {
-  // eslint-disable-next-line @typescript-eslint/no-floating-promises
-  it('returns beautified JSON', () => {
+  it('returns beautified JSON', (t: TestContext) => {
     const actual = beautifyJson('{"string":"string","number":1}')
-    assert.strictEqual(actual, `{
+    t.assert.strictEqual(actual, `{
   "string": "string",
   "number": 1
 }`)

@@ -1,4 +1,4 @@
-import type { FileType } from './FileType.js'
+import type { FileType } from './FileType.ts'
 
 export interface Profile {
   name: string

@@ -1,6 +1,6 @@
-import { generateWordCloudFiles } from './core/generateWordCloudFiles.js'
-import { logger } from './logger/logger.js'
-import { initOptions } from './options/initOptions.js'
+import { generateWordCloudFiles } from './core/generateWordCloudFiles.ts'
+import { logger } from './logger/logger.ts'
+import { initOptions } from './options/initOptions.ts'
 
 try {
   const options = initOptions()

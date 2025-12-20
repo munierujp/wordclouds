@@ -1,6 +1,6 @@
 import type { Page } from 'playwright'
-import { logger } from '../logger/logger.js'
-import { Selector } from './Selector.js'
+import { logger } from '../logger/logger.ts'
+import { Selector } from './Selector.ts'
 
 export const downloadWordCloudFile = async (page: Page, path: string): Promise<void> => {
   logger.debug(`[downloadWordCloudFile] click ${Selector.FileMenuLink}`)
