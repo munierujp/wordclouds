@@ -1,6 +1,7 @@
 {
   "extends": [
-    "@tsconfig/node22/tsconfig.json"
+    // https://github.com/tsconfig/bases/blob/main/bases/node24.json
+    "@tsconfig/bases/node24"
   ],
   "compilerOptions": {
     "resolveJsonModule": true
