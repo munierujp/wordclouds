@@ -1,5 +1,5 @@
-import { FileType } from './FileType.js'
-import type { Profile } from './Profile.js'
+import { FileType } from './FileType.ts'
+import type { Profile } from './Profile.ts'
 
 export const profiles: Profile[] = [
   {

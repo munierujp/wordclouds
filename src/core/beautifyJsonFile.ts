@@ -2,7 +2,7 @@ import {
   readFile,
   writeFile
 } from 'node:fs/promises'
-import { beautifyJson } from '../json/beautifyJson.js'
+import { beautifyJson } from '../json/beautifyJson.ts'
 
 export const beautifyJsonFile = async (path: string): Promise<void> => {
   const json = await readFile(path, 'utf8')

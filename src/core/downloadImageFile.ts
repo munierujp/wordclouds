@@ -1,7 +1,7 @@
 import type { Page } from 'playwright'
-import { logger } from '../logger/logger.js'
-import { FileType } from '../profile/FileType.js'
-import { Selector } from './Selector.js'
+import { logger } from '../logger/logger.ts'
+import { FileType } from '../profile/FileType.ts'
+import { Selector } from './Selector.ts'
 
 export const downloadImageFile = async (page: Page, path: string, type: FileType): Promise<void> => {
   logger.debug(`[downloadImageFile] click ${Selector.FileMenuLink}`)
