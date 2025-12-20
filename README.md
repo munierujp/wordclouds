@@ -2,22 +2,22 @@
 
 # wordclouds
 
-ワードクラウド
+My word clouds
 
-## Googleスライド
-### ダーク
+## Google Slides
+### Dark
 
 ![google-slides-dark.png](data/google-slides-dark.png)
 
-### ライト
+### Light
 
 ![google-slides-light.png](data/google-slides-light.png)
 
-## スクエア
+## Square
 
 ![square.png](data/square.png)
 
-## 食べログ
+## Tabelog
 
 ![tabelog.jpg](data/tabelog.jpg)
 
