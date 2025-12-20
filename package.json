@@ -27,7 +27,7 @@
     "@munierujp/eslint-config-typescript": "47.1.1",
     "@tsconfig/node22": "22.0.1",
     "@types/node": "22.15.35",
-    "eslint": "8.57.1",
+    "eslint": "9.39.2",
     "glob": "11.1.0",
     "rimraf": "6.1.2",
     "tsx": "4.21.0",
