@@ -2,7 +2,7 @@ import { FileType } from './FileType.ts'
 import type { Profile } from './Profile.ts'
 
 export const profiles: Profile[] = [
- {
+  {
     name: 'google-slides-dark',
     type: FileType.Png
   },
