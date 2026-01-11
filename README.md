@@ -1,3 +1,4 @@
+[![lint](https://github.com/munierujp/wordcloud/actions/workflows/lint.yml/badge.svg)](https://github.com/munierujp/wordcloud/actions/workflows/lint.yml)
 [![test](https://github.com/munierujp/wordcloud/actions/workflows/test.yml/badge.svg)](https://github.com/munierujp/wordcloud/actions/workflows/test.yml)
 [![neostandard javascript style](https://img.shields.io/badge/code_style-neostandard-7fffff?style=flat&labelColor=ff80ff)](https://github.com/neostandard/neostandard)
 
