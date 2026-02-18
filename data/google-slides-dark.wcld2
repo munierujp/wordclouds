@@ -1,6 +1,6 @@
 {
-  "version": "4.8",
-  "date": "2026-01-12T15:52:01.604Z",
+  "version": "4.10",
+  "date": "2026-02-18T14:53:28.915Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -477,6 +477,12 @@
     ],
     [
       "約束のネバーランド",
+      25,
+      null,
+      null
+    ],
+    [
+      "涼宮ハルヒの消失",
       25,
       null,
       null
