@@ -1,7 +1,7 @@
 {
   "name": "wordclouds",
   "version": "1.9.0",
-  "description": "My word clouds",
+  "description": "☁️ My word clouds",
   "type": "module",
   "private": true,
   "scripts": {
