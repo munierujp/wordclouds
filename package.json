@@ -18,7 +18,7 @@
     "@tsconfig/bases": "1.0.22",
     "@types/node": "24.10.13",
     "commander": "14.0.2",
-    "eslint": "9.39.3",
+    "eslint": "10.0.1",
     "fp-ts": "2.16.11",
     "io-ts": "2.2.22",
     "log4js": "6.9.1",
