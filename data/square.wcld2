@@ -1,6 +1,6 @@
 {
   "version": "4.10",
-  "date": "2026-02-18T14:54:14.022Z",
+  "date": "2026-03-10T16:50:02.899Z",
   "config": {
     "candidates": {
       "strategy": "circles",
@@ -417,6 +417,12 @@
     ],
     [
       "池袋",
+      25,
+      null,
+      null
+    ],
+    [
+      "超かぐや姫！",
       25,
       null,
       null
