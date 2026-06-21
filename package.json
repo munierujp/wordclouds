@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "4.7.2",
-    "@tsconfig/bases": "1.0.23",
+    "@tsconfig/bases": "1.0.25",
     "@types/node": "24.10.15",
     "commander": "14.0.3",
     "eslint": "9.39.4",
