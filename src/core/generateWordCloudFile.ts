@@ -1,7 +1,6 @@
 import type { Page } from 'playwright'
 import { logger } from '../logger/logger.ts'
 import type { Profile } from '../profile/Profile.ts'
-import { beautifyJsonFile } from './beautifyJsonFile.ts'
 import { downloadImageFile } from './downloadImageFile.ts'
 import { downloadWordCloudFile } from './downloadWordCloudFile.ts'
 import { resizeImageFile } from './resizeImageFile.ts'
@@ -32,7 +31,4 @@ export const generateWordCloudFile = async (page: Page, profile: Profile): Promi
 
   logger.info(`Download ${wordCloudFileName}`)
   await downloadWordCloudFile(page, `${OUTPUT_DIRECTORY}/${wordCloudFileName}`)
-
-  logger.info(`Beautify ${wordCloudFileName}`)
-  await beautifyJsonFile(`${OUTPUT_DIRECTORY}/${wordCloudFileName}`)
 }
