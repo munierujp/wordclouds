@@ -1,6 +1,5 @@
 export const Selector = {
   CloseButton: '#closeBtn',
-  DownloadButton: '#downloadBtn',
   FileMenuLink: '#wizFileMenu .nav-link',
   FileTypeJpgButton: '#offcanvasSidebar [data-filetype="jpg"]',
   FileTypePngButton: '#offcanvasSidebar [data-filetype="png"]',
