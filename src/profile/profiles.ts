@@ -16,7 +16,8 @@ export const profiles: Profile[] = [
   },
   {
     name: 'tabelog',
-    type: FileType.Jpg
+    type: FileType.Jpg,
+    maxWidth: 980
   },
   {
     name: 'x',
