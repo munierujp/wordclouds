@@ -5,7 +5,7 @@
 # wordclouds
 
 ☁️ My word clouds
-<!-- 
+
 ## Google Slides
 ### Dark
 
@@ -13,7 +13,7 @@
 
 ### Light
 
-![google-slides-light.png](data/google-slides-light.png) -->
+![google-slides-light.png](data/google-slides-light.png)
 
 ## Square
 
@@ -26,7 +26,7 @@
 ## X
 
 ![x.png](data/x.png)
-<!-- 
+
 ## Zoom
 
-![zoom.png](data/zoom.png) -->
+![zoom.png](data/zoom.png)
