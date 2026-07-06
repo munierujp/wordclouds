@@ -22,11 +22,11 @@ const Options = intersection([
       literal(LogLevel.Info),
       literal(LogLevel.Debug),
       literal(LogLevel.Trace)
-    ])
+    ]),
+    timeout: number
   }),
   partial({
-    profile: string,
-    timeout: number
+    profile: string
   })
 ])
 // eslint-disable-next-line @typescript-eslint/no-redeclare
