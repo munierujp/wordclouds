@@ -2,6 +2,7 @@ import {
   boolean,
   intersection,
   literal,
+  number,
   partial,
   string,
   type,
@@ -21,7 +22,8 @@ const Options = intersection([
       literal(LogLevel.Info),
       literal(LogLevel.Debug),
       literal(LogLevel.Trace)
-    ])
+    ]),
+    timeout: number
   }),
   partial({
     profile: string

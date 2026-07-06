@@ -14,6 +14,7 @@ export const generateWordCloudFiles = async (options: Options): Promise<void> =>
   logger.info('Launch browser')
   const browser = await chromium.launch({ headless: options.headless })
   const page = await browser.newPage()
+  page.setDefaultTimeout(options.timeout)
   logger.info('Open https://www.wordclouds.com/')
   await page.goto('https://www.wordclouds.com/')
 
