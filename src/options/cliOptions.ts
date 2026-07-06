@@ -31,5 +31,12 @@ export const cliOptions: CLIOption[] = [
     description: 'Profile to use',
     type: OptionType.String,
     required: false
+  },
+  {
+    name: 'timeout',
+    description: 'Global timeout for Playwright waits in milliseconds',
+    type: OptionType.Number,
+    required: false,
+    default: 60000
   }
 ]

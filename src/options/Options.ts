@@ -2,6 +2,7 @@ import {
   boolean,
   intersection,
   literal,
+  number,
   partial,
   string,
   type,
@@ -24,7 +25,8 @@ const Options = intersection([
     ])
   }),
   partial({
-    profile: string
+    profile: string,
+    timeout: number
   })
 ])
 // eslint-disable-next-line @typescript-eslint/no-redeclare
