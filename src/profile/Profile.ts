@@ -4,4 +4,5 @@ export interface Profile {
   name: string
   type: FileType
   maxWidth?: number
+  wordContrastBackground?: string
 }
