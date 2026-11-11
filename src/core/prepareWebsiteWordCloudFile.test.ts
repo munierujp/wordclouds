@@ -22,7 +22,7 @@ for (const [theme, background] of [['light', '#faf9f6'], ['dark', '#191c1e']] as
     const directory = await mkdtemp(join(tmpdir(), 'website-cloud-'))
     try {
       const path = join(directory, 'template.wcld3')
-      await copyFile(`data/website-${theme}.wcld3`, path)
+      await copyFile(`data/munieru-jp-${theme}.wcld3`, path)
       await prepareWebsiteWordCloudFile(path, 'data/words.csv', background)
       const cloud = JSON.parse(gunzipSync(await readFile(path)).toString())
       const rows: { word: string, weight: string }[] = parse(await readFile('data/words.csv'), { bom: true, columns: true })

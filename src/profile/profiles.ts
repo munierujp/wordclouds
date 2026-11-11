@@ -3,13 +3,13 @@ import type { Profile } from './Profile.ts'
 
 export const profiles: Profile[] = [
   {
-    name: 'website-light',
+    name: 'munieru-jp-light',
     type: FileType.Png,
     maxWidth: 1600,
     wordContrastBackground: '#faf9f6'
   },
   {
-    name: 'website-dark',
+    name: 'munieru-jp-dark',
     type: FileType.Png,
     maxWidth: 1600,
     wordContrastBackground: '#191c1e'
