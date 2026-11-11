@@ -6,6 +6,7 @@ import { downloadWordCloudFile } from './downloadWordCloudFile.ts'
 import { resizeImageFile } from './resizeImageFile.ts'
 import { uploadWordCloudFile } from './uploadWordCloudFile.ts'
 import { uploadWordListFile } from './uploadWordListFile.ts'
+import { prepareWebsiteWordCloudFile } from './prepareWebsiteWordCloudFile.ts'
 
 const OUTPUT_DIRECTORY = 'data'
 const WORD_LIST_FILE_NAME = 'words.csv'
@@ -13,11 +14,17 @@ const WORD_LIST_FILE_NAME = 'words.csv'
 export const generateWordCloudFile = async (page: Page, profile: Profile): Promise<void> => {
   const wordCloudFileName = `${profile.name}.wcld3`
 
+  if (profile.wordContrastBackground !== undefined) {
+    await prepareWebsiteWordCloudFile(`${OUTPUT_DIRECTORY}/${wordCloudFileName}`, `${OUTPUT_DIRECTORY}/${WORD_LIST_FILE_NAME}`, profile.wordContrastBackground)
+  }
+
   logger.info(`Upload ${wordCloudFileName}`)
   await uploadWordCloudFile(page, `${OUTPUT_DIRECTORY}/${wordCloudFileName}`)
 
-  logger.info(`Upload ${WORD_LIST_FILE_NAME}`)
-  await uploadWordListFile(page, `${OUTPUT_DIRECTORY}/${WORD_LIST_FILE_NAME}`)
+  if (profile.wordContrastBackground === undefined) {
+    logger.info(`Upload ${WORD_LIST_FILE_NAME}`)
+    await uploadWordListFile(page, `${OUTPUT_DIRECTORY}/${WORD_LIST_FILE_NAME}`)
+  }
 
   const imageFileName = `${profile.name}.${profile.type}`
 
